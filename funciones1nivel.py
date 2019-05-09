@@ -10,5 +10,7 @@ def sumatodo(limite, f):
     for i in range(0, limite+1):
         resultado += f(i)
     return resultado
-print(sumatodo(100, normal))
-print(sumatodo(3, cuadrado))
+
+if __name__ == '__main__':
+    print(sumatodo(100, normal))
+    print(sumatodo(3, cuadrado))
